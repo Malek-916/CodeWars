@@ -16,7 +16,7 @@ public class LetterSwap {
 // loop on words array
         for (int i = 0; i < wordsList.length; i++) {
             String currentWord = wordsList[i];
-// word with 5 or more letters get swapped
+// word with 5 or more letters get inversed
             if (currentWord.length() >= 5)
                 swappedString += inverseWord(currentWord) + " ";
         else
